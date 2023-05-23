@@ -1,0 +1,113 @@
+@media screen and (max-width: 730px) {
+    header .navbar-brand {
+      padding-left: 1rem;
+    }
+
+    header .container .col-md-7 h1 {
+      font-size: 7vmin;
+    }
+
+    header .row .col-md-5 img {
+      width: 69%;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+    .section-2 .cover {
+      background-position: -25vmin -10vmin;
+    }
+    .numbers .rect {
+      width: 10rem;
+      height: 8rem;
+    }
+    .numbers .rect h1 {
+      font-size: 2rem;
+    }
+  
+    .section-3 {
+      height: inherit;
+      padding: 10vmin !important;
+    }
+    .section-3 .row h1 {
+      padding: 6vmin 4vmin;
+    }
+    .section-3 .platform .col-md-6 {
+      text-align: center !important;
+    }
+    .section-3 .desktop i {
+      font-size: 8vmin;
+    }
+    .section-4 .carousel-item {
+      padding-left: 0.10rem;
+    }
+    footer .row .col-md-2 {
+      margin-top: 8vmin;
+    }
+  }
+  
+
+  @media screen and (max-width: 860px) {
+    header .row .col-md-5 img {
+      width: 80%;
+      padding-top: 110px;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+    }
+
+    .card-body .pricing > h1 {
+      font-size: 6vmin;
+    }
+
+    
+
+  .section-3 .col-md-12 > p {
+    font-size: 2vmin;
+
+}
+
+.section-3 .desktop {
+    font-size: 0.8rem;
+
+}
+
+
+.section-4 .card {
+
+    width: 14em;
+    border: 1px solid whitesmoke;
+
+  }
+
+  .section-4 .carousel-item {
+    padding-left: 0px;
+  }
+
+
+  }
+
+
+
+
+
+
+
+  /* screen size 375px */
+  
+  @media only screen and (max-width: 375px) {
+    .section-4 .card {
+      width: 18em;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .section-4 .carousel-inner {
+      margin-left: -4vmin;
+    }
+  }
